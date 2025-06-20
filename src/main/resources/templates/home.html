@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+<h1>Welcome to My Furniture Store</h1>
+
+<nav>
+    <ul>
+        <li><a th:href="@{/furniture}">Furniture List</a></li>
+        <li><a th:href="@{/furniture/new}">Add New Furniture</a></li>
+        <li><a th:href="@{/cart}">View Cart</a></li>
+    </ul>
+</nav>
+</body>
+</html>
